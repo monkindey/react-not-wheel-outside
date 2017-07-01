@@ -5,20 +5,20 @@
 
 ### Usage
 
-```html
-import WheelNotOutSide from 'react-not-wheel-outside'
+```js
+import WheelNotOutSide from 'react-not-wheel-outside';
 
 class Foo extends React.Component {
-	render() {
-		return (
-			<div>
-				<h2>The scrollable parent of div A</h2>
-				<WheelNotOutSide>
-					<div>the scrollable div named A</div>
-				</WheelNotOutSide>				
-			</div>
-		)
-	}
+  render() {
+    return (
+      <div>
+        <h2>The scrollable parent of div A</h2>
+        <WheelNotOutSide>
+          <div>the scrollable div named A</div>
+        </WheelNotOutSide>
+      </div>
+    );
+  }
 }
 ```
 
